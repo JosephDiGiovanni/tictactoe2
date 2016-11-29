@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <svg id="game-board" width="80%" viewBox="0 0 366 366" fill="grey">
+      <!-- Create all the shapes for your game board here! -->
+<rect id="tls" width="100" height="100" x="0" y="0" onClick="tls()"/></rect>
+<rect id="tcs" width="100" height="100" x="133" y="0" onClick="tcs()"/></rect>
+<rect id="trs" width="100" height="100" x="266" y="0" onClick="trs()"/></rect>
+<rect id="mls" width="100" height="100" x="0" y="133" onClick="mls()"/></rect>
+<rect id="mcs" width="100" height="100" x="133" y="133" onClick="mcs()"/></rect>
+<rect id="mrs" width="100" height="100" x="266" y="133" onClick="mrs()"/></rect>
+<rect id="bls" width="100" height="100" x="0" y="266" onClick="bls()"/></rect>
+<rect id="bcs" width="100" height="100" x="133" y="266" onClick="bcs()"/></rect>
+<rect id="brs" width="100" height="100" x="266" y="266" onClick="brs()"/></rect>
+    </svg>
+<button> Reload the page or click Ctrl S to restart </button>
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
